@@ -10,7 +10,7 @@ sys.path.insert(0, CURRENT_PATH)
 
 SOURCE_PATH = 'Input_Videos'
 SOURCE_EXTS = '*.mpg'
-FACE_PREDICTOR_PATH = 'shape_predictor_68_face_landmarks.dat'
+FACE_PREDICTOR_PATH = '../shape_predictor_68_face_landmarks.dat'
 TARGET_PATH = 'Output_cropped_images/'
 
 # Recursvive directory creation function - makes all intermediate-level directories needed to contain the leaf directory
