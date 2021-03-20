@@ -1,4 +1,21 @@
-/Data_PreProcessing/Output_cropped_images
-/Data_PreProcessing/__pycache__
-/Data_PreProcessing/Input_Videos
+# for grid corpus
+/Data_PreProcessing/for_grid/Output_cropped_images
+/Data_PreProcessing/for_grid/__pycache__
+/Data_PreProcessing/for_grid/Input_Videos
+
+# for lrs3-ted
+/Data_PreProcessing/for_lrs3/frames
+/Data_PreProcessing/for_lrs3/mouth
+/Data_PreProcessing/for_lrs3/npz
+/Data_PreProcessing/for_lrs3/raw_audio
+/Data_PreProcessing/for_lrs3/audio_process/.ipynb_checkpoints
+/Data_PreProcessing/for_lrs3/audio_process/create_wav_2speakers.m
+/Data_PreProcessing/for_lrs3/audio_process/maxfilt.m
+/Data_PreProcessing/for_lrs3/audio_process/mix_2_spk_cv.txt
+/Data_PreProcessing/for_lrs3/audio_process/mix_2_spk_tr.txt
+/Data_PreProcessing/for_lrs3/audio_process/mix_2_spk_tt.txt
+/Data_PreProcessing/for_lrs3/audio_process/activlev.m
+/Data_PreProcessing/for_lrs3/video_process/.ipynb_checkpoints
+
+# misc
 shape_predictor_68_face_landmarks.dat

@@ -5,7 +5,7 @@ from scipy import ndimage
 from scipy.misc import imresize
 import skvideo.io
 import dlib
-from aligns import Align
+#from aligns import Align
 
 class Video(object):
     def __init__(self, vtype='mouth', face_predictor_path=None):
