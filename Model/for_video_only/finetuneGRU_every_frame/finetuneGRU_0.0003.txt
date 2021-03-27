@@ -1,0 +1,5 @@
+*** model has been successfully loaded! ***
+val Epoch:	 0	Loss: 0.5943	Acc:0.8270
+
+test Epoch:	 0	Loss: 0.6742	Acc:0.8164
+
