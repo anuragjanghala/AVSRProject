@@ -62,7 +62,7 @@ def load_vid_pred(model, phase, optimizer, args, use_gpu):
         inputs, (1, inputs.shape[0], inputs.shape[1], inputs.shape[2]))
     # print(inputs.shape)
     inputs = torch.from_numpy(inputs)
-    print(inputs.shape)
+    # print(inputs.shape)
     batch_img = CenterCrop(inputs.cpu().numpy(), (88, 88))
     batch_img = ColorNormalize(batch_img)
     batch_img = np.reshape(
@@ -70,16 +70,25 @@ def load_vid_pred(model, phase, optimizer, args, use_gpu):
     inputs = torch.from_numpy(batch_img)
     inputs = inputs.float().permute(0, 4, 1, 2, 3)
 
-    print(inputs.shape)
+    # print(inputs.shape)
 
     outputs = model(inputs)
     outputs = torch.mean(outputs, 1)
-    print(outputs.shape)
+    # print(outputs.shape)
     softmax = nn.Softmax(dim=1)
     _, preds = torch.max(softmax(outputs).data, 1)
-    print(preds)
-
-    return
+    # print(preds)
+    with open('../label_sorted.txt') as myfile:
+        data_dir = myfile.read().splitlines()
+        # print(data_dir)
+        List = {}
+        # print(preds.tolist())
+        for i, x in enumerate(preds.tolist()):
+            # print(x)
+            for j, elem in enumerate(data_dir):
+                if j == x:
+                    List[i] = elem
+        print('Word Predicted from the Input Video: --- '+List[0])
 
 
 def get_data(args, use_gpu):
@@ -133,3 +142,4 @@ def get_pred_for_video():
 
 if __name__ == '__main__':
     get_pred_for_video()
+
