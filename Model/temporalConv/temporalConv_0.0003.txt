@@ -1,0 +1,29 @@
+train from scratch
+----------
+Epoch 0/4
+Current Learning rate: [0.0003]
+train Epoch:	 0	Loss: 4.1060	Acc:0.0806
+
+val Epoch:	 0	Loss: 2.5287	Acc:0.3330
+
+----------
+Epoch 1/4
+Current Learning rate: [0.0003]
+train Epoch:	 1	Loss: 2.2312	Acc:0.3972
+
+val Epoch:	 1	Loss: 1.4127	Acc:0.6014
+
+----------
+Epoch 2/4
+Current Learning rate: [0.0003]
+*** model has been successfully loaded! ***
+val Epoch:	 0	Loss: 2.1316	Acc:0.6400
+
+test Epoch:	 0	Loss: 2.2750	Acc:0.6600
+
+*** model has been successfully loaded! ***
+*** model has been successfully loaded! ***
+val Epoch:	 0	Loss: 2.1316	Acc:0.6400
+
+test Epoch:	 0	Loss: 2.2750	Acc:0.6600
+
