@@ -4,11 +4,11 @@
 
 The purpose of this project was to build a simple way of fetching information from speechless videos that are harder to understand for a normal human being to analyze.
 
-We live in a world full of technologies but there are some chances that those technologies
-might fail at some stage in their deliverable-times.
-	• when there is noise on the audio channel which makes it difficult to hear a person's 	audio.
-	• when an audio file of some video gets corrupted.
-	• when a person is physically challenged to talk like a normal person, which makes it difficult for that person to live life normally.
+We live in a world full of technologies but there are some chances that those technologies might fail at some stage in their deliverable-times.
+
+• when there is noise on the audio channel which makes it difficult to hear a person's 	audio.
+• when an audio file of some video gets corrupted.
+• when a person is physically challenged to talk like a normal person, which makes it difficult for that person to live life normally.
 
 ### Tools used:
 
