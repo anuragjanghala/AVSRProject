@@ -1,4 +1,4 @@
-# AVSRProject ###### readme 1.1
+# AVSRProject 
 
 ## Lip Reading from Speechless Videos using Audio-Visual Speech Recognition Technology
 
@@ -107,3 +107,8 @@ Next step would be to extend this system in order to be able to recognise senten
 ### Future Works:
 - AI model production on Web Apps using nodejs, flask / fastAPI, pickle
 - Dockerizing the project for the ease of access for other reseachers.
+
+
+
+
+###### readme 1.2
